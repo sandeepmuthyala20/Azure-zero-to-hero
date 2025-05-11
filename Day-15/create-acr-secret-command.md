@@ -1,3 +1,7 @@
+# Command to login to the AKS Cluster
+
+az aks get-credentials --name azuredevops --overwrite-existing --resource-group azurecicd
+
 # Command to create ACR ImagePullSecret
 
 ```
