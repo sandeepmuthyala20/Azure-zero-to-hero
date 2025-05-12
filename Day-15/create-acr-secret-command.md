@@ -13,7 +13,7 @@ argocd credentials
 username - admin
 password - 3-6ja7jS7vDB6PQr
 
-# chane argocd-seerver to NodePort
+# Change argocd-server to NodePort
 kubectl edit svc argocd-server -n argocd
 
 
