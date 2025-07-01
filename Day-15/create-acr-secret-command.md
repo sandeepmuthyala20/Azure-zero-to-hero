@@ -31,6 +31,7 @@ https://4.154.179.64:31344/
 open 31344 port in vmss instances to use the argocd
 
 Sandeep-->kubectl -n argocd get secret              
+
 NAME                          TYPE     DATA   AGE
 argocd-initial-admin-secret   Opaque   1      22h
 argocd-notifications-secret   Opaque   0      22h
