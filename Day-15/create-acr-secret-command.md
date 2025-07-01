@@ -5,12 +5,17 @@ az aks get-credentials --name azuredevops --overwrite-existing --resource-group 
 # Command to get secrets for argocd
 
 kubectl get secrets -n argocd
+
 kubectl edit secret argocd-initial-admin-secret -n argocd
-muthyalasandeep@Sandeeps-MacBook-Air Downloads % echo My02amE3alM3dkRCNlBRcg== | base64 --decode
-3-6ja7jS7vDB6PQr%                                                                                                                                muthyalasandeep@Sandeeps-MacBook-Air Downloads % 
+
+muthyalasandeep@Sandeeps-MacBook-Air Downloads % echo My02amE3alM3dkRCNlBRcg== | base64 --decode 
+
+3-6ja7jS7vDB6PQr%                                                                                                                                
 
 argocd credentials
+
 username - admin
+
 password - 3-6ja7jS7vDB6PQr
 
 # Change argocd-server to NodePort
@@ -35,6 +40,7 @@ repo-994358893                Opaque   3      22h
 Sandeep-->
 
 kubectl edit secret argocd-initial-admin-secret -n argocd
+
 echo eWNNdUJjS1RHUFJSVFVaOA== | base64 --d
 
 
